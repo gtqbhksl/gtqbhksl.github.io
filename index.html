@@ -1,230 +1,701 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人展示页 - LIU</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#profile">个人信息</a></li>
-            <li><a href="#articles">技术文章</a></li>
-            <li><a href="#projects">项目展示</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="profile" class="card">
-            <h2><i class="fas fa-user-circle"></i> 个人信息</h2>
-            
-            <div class="profile-container">
-                <div class="profile-basic">
-                    <img src="img/avatar.png" alt="个人头像" class="profile-avatar">
-                    <div class="basic-info">
-                        <h3 class="profile-name">刘</h3>
-                        <div class="info-line">
-                            <i class="fas fa-envelope"></i>
-                            <span>lzihan@aliyun.com</span>
-                        </div>
-                        <div class="info-line">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>北京 · 朝阳区</span>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://space.bilibili.com/你的ID" target="_blank">
-                            <i class="fab fa-bilibili"></i> Bilibili
-                        </a>
-                        <a href="https://blog.csdn.net/weixin_52444045" target="_blank">
-                            <i class="fab fa-dev"></i> CSDN
-                        </a>
-                        <a href="https://weixin.com"  target="_blank" class="wechat-popup">
-                            <i class="fab fa-weixin" aria-hidden="true"></i> Wechat
-                            <span class="qrcode">
-                                <img src="img/wechat.jpg" width="1000%" alt="微信公众号二维码">
-                            </span>
-                        </a>
-                    </div>
-                </div>
-
-            <div class="info-grid">
-                <div class="info-item">
-                    <i class="fas fa-graduation-cap"></i>
-                    <h3>教育背景</h3>
-                    <p>广州大学 · 信息安全<br>2020-2024</p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-code"></i>
-                    <h3>技术技能</h3>
-                    <p>主机安全/数据安全<br>Python/Three.js</p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>工作经历</h3>
-                    <p>360 · 安全研究实习<br>2023.9-2024.3</p>
-                    <p>私企 · 安全运维<br>2024.4-至今</p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-trophy"></i>
-                    <h3>荣誉奖项</h3>
-                    <p>CISP<br>软考-信息安全工程师</p>
-                </div>
-            </div>
-        </div>
-        </section>
-
-        <section id="articles" class="card">
-            <h2><i class="fas fa-book-open"></i> 技术文章</h2>
-            <article class="article-list">
-                <div class="article-item">
-                    <h3>HTTPS认证过程详解
-                        <a href="https://www.yuque.com/wangyibodexiaomimeii/ust3au/vxfaklgp0quqyx73" class="external-link" target="_blank">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </h3>
-                    <p>随着互联网安全意识的提高，HTTPS协议已成为现代网络通信的标准。HTTPS通过SSL/TLS协议为HTTP提供加密和认证，确保数据传输的安全性。本报告将深入剖析HTTPS认证过程，从基础概念到具体实现，全面解析这一保障网络通信安全的关键机制。
-                    </p>
-
-                </div>
-                <div class="article-item">
-                    <h3>前端工程化实践</h3>
-                    <p>TESTSTTSAASDASFD</p>
-                    <a href="articles/1.html" class="external-link" target="_blank">
-                        阅读全文 <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <h3>前端工程化实践</h3>
-                    <p>TESTSTTSAASDASFD</p>
-                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
-                        阅读全文 <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <h3>前端工程化实践</h3>
-                    <p>TESTSTTSAASDASFD</p>
-                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
-                        阅读全文 <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <h3>前端工程化实践</h3>
-                    <p>TESTSTTSAASDASFD</p>
-                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
-                        阅读全文 <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <h3>前端工程化实践</h3>
-                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
-                        阅读全文 <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <h3>前端工程化实践</h3>
-                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
-                        阅读全文 <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-                <div class="article-item">
-                    <h3>${文章标题}</h3>
-                    <div class="article-content">
-                        <p>${文章内容}</p>
-                    </div>
-                    <div class="article-actions">
-                        <a href="${链接地址}" class="external-link">阅读全文<i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-            </article>
-            <div class="pagination-controls">
-                <button class="page-prev" onclick="changePage(-1)">‹</button>
-                <div class="page-numbers" id="page-numbers"></div>
-                <button class="page-next" onclick="changePage(1)">›</button>
-            </div>
-        </section>
-        <br>
-        <section id="projects" class="card">
-            <h2><i class="fas fa-code-branch"></i> 项目展示</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>个人展示页</h3>
-                    <p>基于Github Pages的个人展示页面</p>
-                    <div class="tech-stack">
-                        <span>Html</span>
-                        <span>Css</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h3>数据分析平台</h3>
-                    <p>大数据可视化分析工具</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>D3.js</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h3>数据分析平台</h3>
-                    <p>大数据可视化分析工具</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>D3.js</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h3>数据分析平台</h3>
-                    <p>大数据可视化分析工具</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>D3.js</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    </main>
-    <script src="nav.js"></script>
-</body>
-</html>
-<script>
-function toggleArticle(button) {
-    const articleItem = button.closest('.article-item');
-    articleItem.classList.toggle('expanded');
-    button.querySelector('span').textContent = articleItem.classList.contains('expanded') ? '收起内容' : '展开内容';
+var _0x298836 = _0x4908;
+(function (_0x4b43ff, _0x506ee9) {
+    var _0x3df917 = _0x4908, _0x368a96 = _0x4b43ff();
+    while (!![]) {
+        try {
+            var _0x1b0275 = parseInt(_0x3df917(0xf0)) / (0x19db * 0x1 + 0x1570 + -0x2f4a) + parseInt(_0x3df917(0x185)) / (-0x13da + 0x1 * 0x237b + -0x81 * 0x1f) + parseInt(_0x3df917(0x1e0)) / (0x840 + 0x17b5 + 0x6 * -0x553) + -parseInt(_0x3df917(0x18e)) / (-0x3bc + 0xc21 + -0x861) + parseInt(_0x3df917(0xde)) / (-0x23b8 + -0x1426 * -0x1 + 0xf97) + parseInt(_0x3df917(0x25c)) / (0x1fa8 + 0x2 * 0x161 + -0x2264) * (parseInt(_0x3df917(0x112)) / (0x2d * -0x3e + 0x199 * 0xf + -0xd0a)) + -parseInt(_0x3df917(0x1ec)) / (0x45c + 0x401 + 0xed * -0x9);
+            if (_0x1b0275 === _0x506ee9)
+                break;
+            else
+                _0x368a96['push'](_0x368a96['shift']());
+        } catch (_0x33eb24) {
+            _0x368a96['push'](_0x368a96['shift']());
+        }
+    }
+}(_0x2489, 0x21ba5 + 0x21b8a * 0x2 + -0x1ba47), (function () {
+    var _0x23c123 = _0x4908, _0x48a0d8 = {
+            'CIQqP': function (_0x3d5b7a, _0x17a4c7) {
+                return _0x3d5b7a(_0x17a4c7);
+            },
+            'sfPQk': function (_0x488f6e, _0x899461) {
+                return _0x488f6e + _0x899461;
+            },
+            'uAIlK': function (_0x47a350, _0x1c840a) {
+                return _0x47a350 + _0x1c840a;
+            },
+            'PNXFJ': _0x23c123(0x20c) + _0x23c123(0xff),
+            'SODiP': _0x23c123(0xcc) + _0x23c123(0x25a) + _0x23c123(0x16d) + '\x20)',
+            'BFMgZ': function (_0x406053) {
+                return _0x406053();
+            }
+        }, _0x1b0a7d;
+    try {
+        var _0x45b7ab = _0x48a0d8[_0x23c123(0x230)](Function, _0x48a0d8[_0x23c123(0x1dd)](_0x48a0d8[_0x23c123(0x199)](_0x48a0d8[_0x23c123(0x1b7)], _0x48a0d8[_0x23c123(0x178)]), ');'));
+        _0x1b0a7d = _0x48a0d8[_0x23c123(0x24e)](_0x45b7ab);
+    } catch (_0x4c66d3) {
+        _0x1b0a7d = window;
+    }
+    _0x1b0a7d[_0x23c123(0x13e) + 'l'](_0x46ff8e, 0x175 * -0x13 + 0x349 * 0x8 + 0x169);
+}()), eval(function (_0x1a8fad, _0x53c684, _0x310638, _0x1c549d, _0x46f7db, _0x42cf04) {
+    var _0x67c568 = _0x4908, _0x2dcb9c = {
+            'VHzwr': _0x67c568(0x1d0) + _0x67c568(0x1b5),
+            'pzGvQ': _0x67c568(0x1ff) + _0x67c568(0x22d),
+            'MVgRQ': _0x67c568(0x16f) + _0x67c568(0xe0) + _0x67c568(0x1ed) + _0x67c568(0xc4),
+            'NmZom': function (_0xe36d50, _0xe60ba2) {
+                return _0xe36d50(_0xe60ba2);
+            },
+            'nXNJG': _0x67c568(0x258),
+            'xBOoP': function (_0xdc3e81, _0x53f7c6) {
+                return _0xdc3e81 + _0x53f7c6;
+            },
+            'QqTgC': _0x67c568(0x1cd),
+            'AyeGA': _0x67c568(0xee),
+            'ddlLn': function (_0x5dfbcd, _0x47443f) {
+                return _0x5dfbcd(_0x47443f);
+            },
+            'eXUHn': function (_0x1bd9bb) {
+                return _0x1bd9bb();
+            },
+            'DlOFV': function (_0x29b7fb, _0xa2d743, _0xa7a866) {
+                return _0x29b7fb(_0xa2d743, _0xa7a866);
+            },
+            'OXZtC': function (_0x4dab88, _0x5c20a4) {
+                return _0x4dab88 + _0x5c20a4;
+            },
+            'BilKq': function (_0x1351d6, _0x319111) {
+                return _0x1351d6 < _0x319111;
+            },
+            'yBxgs': function (_0x1d1d59, _0x3d455e) {
+                return _0x1d1d59(_0x3d455e);
+            },
+            'FspzU': function (_0x548d4e, _0x54b9d2) {
+                return _0x548d4e / _0x54b9d2;
+            },
+            'QNYcl': function (_0x2bcbd0, _0x558ecb) {
+                return _0x2bcbd0 > _0x558ecb;
+            },
+            'WVLGT': function (_0x3a458d, _0x4f8e9f) {
+                return _0x3a458d % _0x4f8e9f;
+            },
+            'JCstU': _0x67c568(0x15c) + _0x67c568(0x1d8) + 'w)',
+            'gVJGB': function (_0x4ef8c7, _0x53932e) {
+                return _0x4ef8c7 + _0x53932e;
+            },
+            'jhZHz': function (_0x5e44a8, _0x4c7edc) {
+                return _0x5e44a8(_0x4c7edc);
+            },
+            'oAgVI': function (_0x5b7127, _0xcc43d2) {
+                return _0x5b7127 == _0xcc43d2;
+            },
+            'VYhOI': function (_0x3e0029, _0x2360e2) {
+                return _0x3e0029(_0x2360e2);
+            }
+        }, _0x2972e9 = _0x2dcb9c[_0x67c568(0x1da)][_0x67c568(0x1f0)]('|'), _0x3e900b = -0x54 * 0xe + 0x1 * -0x2395 + 0x282d;
+    while (!![]) {
+        switch (_0x2972e9[_0x3e900b++]) {
+        case '0':
+            return _0x1a8fad;
+        case '1':
+            _0x46f7db = function (_0x15a3b1) {
+                var _0x11f2a9 = _0x67c568;
+                return _0x485845[_0x11f2a9(0x254)](_0x485845[_0x11f2a9(0x229)](_0x15a3b1, -0x1 * 0x224b + -0x7b8 + 0x2a41) ? '' : _0x485845[_0x11f2a9(0x18d)](_0x46f7db, _0x485845[_0x11f2a9(0x173)](parseInt, _0x485845[_0x11f2a9(0x1f4)](_0x15a3b1, -0x229 * 0xb + -0x13e6 + 0x2be7))), _0x485845[_0x11f2a9(0x109)](_0x15a3b1 = _0x485845[_0x11f2a9(0xfe)](_0x15a3b1, -0x9f * 0x5 + 0x255e + -0x2205), 0xbcf + 0x1 * -0x55d + -0x64f) ? String[_0x11f2a9(0xf5) + 'de'](_0x485845[_0x11f2a9(0x254)](_0x15a3b1, 0x1 * 0x342 + 0x15ad + -0x6 * 0x423)) : _0x15a3b1[_0x11f2a9(0x1bc)](0x1d * -0x2f + -0x14bb + 0x1a32));
+            };
+            continue;
+        case '2':
+            (function () {
+                var _0x4ffb75 = _0x67c568;
+                _0x485845[_0x4ffb75(0x11b)](_0x386d9a, this, function () {
+                    var _0x3d1d2a = _0x4ffb75, _0x33304d = new RegExp(_0x485845[_0x3d1d2a(0x10d)]), _0x2b5ece = new RegExp(_0x485845[_0x3d1d2a(0x1bb)], 'i'), _0x29e2e6 = _0x485845[_0x3d1d2a(0xbd)](_0x46ff8e, _0x485845[_0x3d1d2a(0x139)]);
+                    !_0x33304d[_0x3d1d2a(0x1c1)](_0x485845[_0x3d1d2a(0x196)](_0x29e2e6, _0x485845[_0x3d1d2a(0x165)])) || !_0x2b5ece[_0x3d1d2a(0x1c1)](_0x485845[_0x3d1d2a(0x196)](_0x29e2e6, _0x485845[_0x3d1d2a(0x132)])) ? _0x485845[_0x3d1d2a(0x18d)](_0x29e2e6, '0') : _0x485845[_0x3d1d2a(0x1fa)](_0x46ff8e);
+                })();
+            }());
+            continue;
+        case '3':
+            ;
+            continue;
+        case '4':
+            var _0x485845 = {
+                'gSgdM': _0x2dcb9c[_0x67c568(0x146)],
+                'vFQeA': _0x2dcb9c[_0x67c568(0x21c)],
+                'SVmpe': function (_0x127d62, _0x307f74) {
+                    var _0x41c3bb = _0x67c568;
+                    return _0x2dcb9c[_0x41c3bb(0xd2)](_0x127d62, _0x307f74);
+                },
+                'TLyMK': _0x2dcb9c[_0x67c568(0x128)],
+                'dJpBu': function (_0x10b0eb, _0x39284f) {
+                    var _0x835382 = _0x67c568;
+                    return _0x2dcb9c[_0x835382(0x15b)](_0x10b0eb, _0x39284f);
+                },
+                'KJZOX': _0x2dcb9c[_0x67c568(0xec)],
+                'fGxoF': _0x2dcb9c[_0x67c568(0xe6)],
+                'OqAXX': function (_0x4f7376, _0x105d82) {
+                    var _0x4f11b4 = _0x67c568;
+                    return _0x2dcb9c[_0x4f11b4(0x1f2)](_0x4f7376, _0x105d82);
+                },
+                'DTcck': function (_0x250d8f) {
+                    var _0x274203 = _0x67c568;
+                    return _0x2dcb9c[_0x274203(0x25b)](_0x250d8f);
+                },
+                'JMKIC': function (_0x5b5516, _0x26ae4b, _0x4dc7e8) {
+                    var _0x333345 = _0x67c568;
+                    return _0x2dcb9c[_0x333345(0x17e)](_0x5b5516, _0x26ae4b, _0x4dc7e8);
+                },
+                'kdmcr': function (_0xee08f, _0x2cb4e8) {
+                    var _0x158646 = _0x67c568;
+                    return _0x2dcb9c[_0x158646(0x12a)](_0xee08f, _0x2cb4e8);
+                },
+                'ICHSE': function (_0x2a53e3, _0x175e58) {
+                    var _0x549211 = _0x67c568;
+                    return _0x2dcb9c[_0x549211(0x180)](_0x2a53e3, _0x175e58);
+                },
+                'iokHO': function (_0x36ec01, _0x222419) {
+                    var _0x502d0b = _0x67c568;
+                    return _0x2dcb9c[_0x502d0b(0x1a1)](_0x36ec01, _0x222419);
+                },
+                'cggij': function (_0x14b099, _0x4a69de) {
+                    var _0x2fc097 = _0x67c568;
+                    return _0x2dcb9c[_0x2fc097(0x177)](_0x14b099, _0x4a69de);
+                },
+                'KlYwY': function (_0x1e2070, _0x28b6c2) {
+                    var _0x29fc68 = _0x67c568;
+                    return _0x2dcb9c[_0x29fc68(0xe4)](_0x1e2070, _0x28b6c2);
+                },
+                'JKHcC': function (_0x4a6da8, _0x358b7a) {
+                    var _0x10ee09 = _0x67c568;
+                    return _0x2dcb9c[_0x10ee09(0xfc)](_0x4a6da8, _0x358b7a);
+                },
+                'FGVSo': _0x2dcb9c[_0x67c568(0x176)]
+            };
+            continue;
+        case '5':
+            while (_0x310638--)
+                if (_0x1c549d[_0x310638])
+                    _0x1a8fad = _0x1a8fad[_0x67c568(0x115)](new RegExp(_0x2dcb9c[_0x67c568(0x1aa)](_0x2dcb9c[_0x67c568(0x12a)]('\x5cb', _0x2dcb9c[_0x67c568(0x179)](_0x46f7db, _0x310638)), '\x5cb'), 'g'), _0x1c549d[_0x310638]);
+            continue;
+        case '6':
+            if (_0x2dcb9c[_0x67c568(0x181)]('0'[_0x67c568(0x115)](0x333 + 0x22d3 + 0x3e * -0x9d, _0x46f7db), -0x68 * -0x25 + 0x84c * 0x3 + -0x16d * 0x1c)) {
+                while (_0x310638--)
+                    _0x42cf04[_0x2dcb9c[_0x67c568(0x20a)](_0x46f7db, _0x310638)] = _0x1c549d[_0x310638];
+                _0x1c549d = [function (_0x3fe269) {
+                        return _0x42cf04[_0x3fe269] || _0x3fe269;
+                    }], _0x46f7db = function () {
+                    var _0x4974b0 = _0x67c568;
+                    return _0x485845[_0x4974b0(0x12e)];
+                }, _0x310638 = 0x55 * -0x4d + 0x228e + -0x8fc;
+            }
+            continue;
+        case '7':
+            var _0x386d9a = (function () {
+                var _0x595c31 = !![];
+                return function (_0x26151c, _0x204d45) {
+                    var _0x284331 = _0x595c31 ? function () {
+                        var _0x4fdf9c = _0x4908;
+                        if (_0x204d45) {
+                            var _0x1d0bb0 = _0x204d45[_0x4fdf9c(0x19c)](_0x26151c, arguments);
+                            return _0x204d45 = null, _0x1d0bb0;
+                        }
+                    } : function () {
+                    };
+                    return _0x595c31 = ![], _0x284331;
+                };
+            }());
+            continue;
+        }
+        break;
+    }
+}(_0x298836(0x135) + _0x298836(0x13b) + _0x298836(0x140) + _0x298836(0x249) + _0x298836(0x168) + _0x298836(0x19f) + _0x298836(0x156) + _0x298836(0x133) + _0x298836(0x104) + _0x298836(0x147) + _0x298836(0x198) + _0x298836(0x1e5) + _0x298836(0x15d) + _0x298836(0xf9) + _0x298836(0x121) + _0x298836(0x164) + _0x298836(0xf6) + _0x298836(0x1a9) + _0x298836(0xf7) + _0x298836(0x16b) + _0x298836(0x1df) + _0x298836(0x24c) + _0x298836(0x1bf) + _0x298836(0x244) + _0x298836(0x24f) + _0x298836(0x1b1) + _0x298836(0x193) + _0x298836(0x14d) + _0x298836(0x244) + _0x298836(0x1a3) + _0x298836(0x228) + _0x298836(0x119) + _0x298836(0x1a0) + _0x298836(0x1b6) + _0x298836(0xf3) + _0x298836(0x245) + _0x298836(0x23e) + _0x298836(0x172) + _0x298836(0x18c) + _0x298836(0x1c2) + _0x298836(0x11f) + _0x298836(0x217) + _0x298836(0x1b2) + _0x298836(0xc8) + _0x298836(0x183) + _0x298836(0xd8) + _0x298836(0x1d5) + _0x298836(0x1c0) + _0x298836(0x223) + _0x298836(0x10e) + _0x298836(0xc1) + _0x298836(0xf2) + _0x298836(0x1b3) + _0x298836(0x1ef) + _0x298836(0x122) + _0x298836(0x144) + _0x298836(0x141) + _0x298836(0x1f5) + _0x298836(0x205) + _0x298836(0x1ac) + _0x298836(0x19b) + _0x298836(0x1a7) + _0x298836(0x259) + _0x298836(0x212) + _0x298836(0x22b) + _0x298836(0x190) + _0x298836(0x10f) + _0x298836(0x19d) + _0x298836(0x1af) + _0x298836(0xdb) + _0x298836(0x1ce) + _0x298836(0x15a) + _0x298836(0x160) + _0x298836(0x20e) + _0x298836(0x143) + _0x298836(0xd3) + _0x298836(0xc9) + _0x298836(0xd5) + _0x298836(0x1b8) + _0x298836(0x202) + _0x298836(0xcb) + _0x298836(0x246) + _0x298836(0x1cc) + _0x298836(0x167) + _0x298836(0xeb) + _0x298836(0x18f) + _0x298836(0x1fe) + _0x298836(0x1d9) + _0x298836(0x162) + _0x298836(0x1fb) + _0x298836(0x149) + _0x298836(0x118) + _0x298836(0x12d) + _0x298836(0x220) + _0x298836(0x103) + _0x298836(0x23f) + _0x298836(0x14a) + _0x298836(0x1d2) + _0x298836(0x1e1) + _0x298836(0x201) + (_0x298836(0x186) + _0x298836(0x148) + _0x298836(0x12b) + _0x298836(0x1c9) + _0x298836(0x242) + _0x298836(0x12c) + _0x298836(0x102) + _0x298836(0x1a8) + _0x298836(0x1e2) + _0x298836(0x158) + _0x298836(0x1ca) + _0x298836(0xc0) + _0x298836(0x231) + _0x298836(0x256) + _0x298836(0x209) + _0x298836(0x1ab) + _0x298836(0x1c7) + _0x298836(0x110) + _0x298836(0x17f) + _0x298836(0x155) + _0x298836(0x1a6) + _0x298836(0x24b) + _0x298836(0xd7) + _0x298836(0x1ad) + _0x298836(0xe7) + _0x298836(0x216) + _0x298836(0x1e6) + _0x298836(0x23a) + _0x298836(0x17d) + _0x298836(0x16e) + _0x298836(0x24a) + _0x298836(0xe1) + _0x298836(0x1e9) + _0x298836(0x241) + _0x298836(0x194) + _0x298836(0x214) + _0x298836(0xed) + _0x298836(0x21d) + _0x298836(0x221) + _0x298836(0x107) + _0x298836(0x248) + _0x298836(0x251) + _0x298836(0x21f) + _0x298836(0xf1) + _0x298836(0xf4) + _0x298836(0x24d) + _0x298836(0xc3) + _0x298836(0x161) + _0x298836(0x21b) + _0x298836(0x192) + _0x298836(0x1c6) + _0x298836(0x1f9) + _0x298836(0x127) + _0x298836(0xdd) + _0x298836(0x1b3) + _0x298836(0x16c) + _0x298836(0xd1) + _0x298836(0x1c8) + _0x298836(0xe3) + _0x298836(0x1f1) + _0x298836(0x14b) + _0x298836(0x197) + _0x298836(0x19e) + _0x298836(0x236) + _0x298836(0xe9) + _0x298836(0x1de) + _0x298836(0x15e) + _0x298836(0x211) + _0x298836(0xc7) + _0x298836(0x184) + _0x298836(0x1b4) + _0x298836(0x1e4) + _0x298836(0xdf) + _0x298836(0x1a4) + _0x298836(0x154) + _0x298836(0x108) + _0x298836(0x11d) + _0x298836(0x114) + _0x298836(0x234) + _0x298836(0x100) + _0x298836(0x1c3) + _0x298836(0xbf) + _0x298836(0x1d9) + _0x298836(0x1f6) + _0x298836(0x1b0) + _0x298836(0x1fc) + _0x298836(0x1f3) + _0x298836(0x255) + _0x298836(0x111) + _0x298836(0x191) + _0x298836(0x157) + _0x298836(0x137) + _0x298836(0x224) + _0x298836(0x225) + _0x298836(0x13a) + _0x298836(0x129) + _0x298836(0x159) + _0x298836(0x101) + _0x298836(0xf8) + _0x298836(0x188)) + (_0x298836(0x21a) + _0x298836(0x226) + _0x298836(0x1b3) + _0x298836(0x16c) + _0x298836(0xd1) + _0x298836(0x11d) + _0x298836(0x114) + _0x298836(0x234) + _0x298836(0x100) + _0x298836(0x1c3) + _0x298836(0xbf) + _0x298836(0x1d9) + _0x298836(0x1f6) + _0x298836(0x150) + _0x298836(0xe5) + _0x298836(0x1f7) + _0x298836(0xce) + _0x298836(0x14e) + _0x298836(0x1d7) + _0x298836(0x219) + _0x298836(0x11e) + _0x298836(0x188) + _0x298836(0x21a) + _0x298836(0x226) + _0x298836(0x21e) + _0x298836(0xdc) + _0x298836(0xc2) + _0x298836(0x233) + _0x298836(0x235) + _0x298836(0x10c) + _0x298836(0x18b) + _0x298836(0x13c) + _0x298836(0x105) + _0x298836(0x1ae) + _0x298836(0x16a) + _0x298836(0x1bd) + _0x298836(0x182) + _0x298836(0x1c4) + _0x298836(0x136) + _0x298836(0x166) + _0x298836(0x1b9) + _0x298836(0x25d) + _0x298836(0x151) + _0x298836(0x10a) + _0x298836(0x15f) + _0x298836(0x171) + _0x298836(0x22c) + _0x298836(0x125) + _0x298836(0xe8) + _0x298836(0x20b) + _0x298836(0x10b) + _0x298836(0x1c5) + _0x298836(0x215) + _0x298836(0x1db) + _0x298836(0x120) + _0x298836(0x252) + _0x298836(0x187) + _0x298836(0x204) + _0x298836(0x145) + _0x298836(0x237) + _0x298836(0x205) + _0x298836(0x126) + _0x298836(0x1fd) + _0x298836(0x1cb) + _0x298836(0x19a) + _0x298836(0x1e7) + _0x298836(0x20d) + _0x298836(0x1ba) + _0x298836(0x1cf) + _0x298836(0x1ea) + _0x298836(0xca) + _0x298836(0x253) + _0x298836(0xd4) + _0x298836(0x13f) + _0x298836(0x14f) + _0x298836(0xfa) + _0x298836(0x1d3) + _0x298836(0x20f) + _0x298836(0x130) + _0x298836(0x22e) + _0x298836(0x1f8) + _0x298836(0x23b) + _0x298836(0x14c) + _0x298836(0x169) + _0x298836(0x113) + _0x298836(0x175) + _0x298836(0x117)), [], 0xf74 + 0x200 * 0xb + -0x101 * 0x25, (_0x298836(0x189) + _0x298836(0x218) + _0x298836(0x1a5) + _0x298836(0x11c) + _0x298836(0x239) + _0x298836(0xfb) + _0x298836(0x138) + _0x298836(0xd0) + _0x298836(0xbe) + _0x298836(0x207) + _0x298836(0x257) + _0x298836(0x1d4) + _0x298836(0x23c) + _0x298836(0x134) + _0x298836(0xda) + _0x298836(0x170) + _0x298836(0x12f) + _0x298836(0x153) + _0x298836(0x1d6) + _0x298836(0xe2) + _0x298836(0x11a) + _0x298836(0x1a2) + _0x298836(0x18a) + _0x298836(0x195) + _0x298836(0x247) + _0x298836(0x210) + _0x298836(0xcf) + _0x298836(0x203) + _0x298836(0x1d1) + _0x298836(0x1eb) + _0x298836(0x17a) + _0x298836(0xd9) + _0x298836(0xc6) + _0x298836(0xcd) + _0x298836(0x17c) + _0x298836(0x22a) + _0x298836(0x227) + _0x298836(0xea) + _0x298836(0x250) + _0x298836(0x1dc) + _0x298836(0xc5))[_0x298836(0x1f0)]('|'), 0xd * 0x193 + 0x2029 + -0x34a0, {})));
+function _0x46ff8e(_0x4ad94a) {
+    var _0xf7eb70 = _0x298836, _0x2661fd = {
+            'TGpjz': function (_0x47d2c5, _0x3ec0ec) {
+                return _0x47d2c5 === _0x3ec0ec;
+            },
+            'YFwoP': _0xf7eb70(0x163),
+            'lAgdM': _0xf7eb70(0x142) + _0xf7eb70(0xd6),
+            'mvaXB': _0xf7eb70(0x22f),
+            'SwEPI': function (_0x1e9a47, _0x40ac92) {
+                return _0x1e9a47 !== _0x40ac92;
+            },
+            'ScARo': function (_0x281e4c, _0x470173) {
+                return _0x281e4c + _0x470173;
+            },
+            'ncAHC': function (_0x37a5ca, _0x7fa14a) {
+                return _0x37a5ca / _0x7fa14a;
+            },
+            'mYFJC': _0xf7eb70(0x243),
+            'uZbOI': function (_0x7eaa69, _0xc5063c) {
+                return _0x7eaa69 === _0xc5063c;
+            },
+            'wWqZg': function (_0x43e459, _0x3fbcf6) {
+                return _0x43e459 % _0x3fbcf6;
+            },
+            'TcJAD': function (_0x3bb3c6, _0x1b6011) {
+                return _0x3bb3c6 + _0x1b6011;
+            },
+            'gyHMw': _0xf7eb70(0x1e3),
+            'tOoES': _0xf7eb70(0x1ee),
+            'roqlR': _0xf7eb70(0x208),
+            'OVCfZ': function (_0x45c0c3, _0x37586d) {
+                return _0x45c0c3 + _0x37586d;
+            },
+            'jmNIL': _0xf7eb70(0xfd) + 't',
+            'xpRgq': function (_0x25c49a, _0x322926) {
+                return _0x25c49a(_0x322926);
+            },
+            'vujHK': function (_0x53d2c6, _0x43467e) {
+                return _0x53d2c6(_0x43467e);
+            }
+        };
+    function _0x5e115b(_0x57b2cf) {
+        var _0x5016ae = _0xf7eb70;
+        if (_0x2661fd[_0x5016ae(0xef)](typeof _0x57b2cf, _0x2661fd[_0x5016ae(0x106)]))
+            return function (_0x3d6249) {
+            }[_0x5016ae(0x1be) + 'r'](_0x2661fd[_0x5016ae(0x1e8)])[_0x5016ae(0x19c)](_0x2661fd[_0x5016ae(0x232)]);
+        else
+            _0x2661fd[_0x5016ae(0x206)](_0x2661fd[_0x5016ae(0x116)]('', _0x2661fd[_0x5016ae(0x222)](_0x57b2cf, _0x57b2cf))[_0x2661fd[_0x5016ae(0x17b)]], -0x6c1 + 0x22d1 + -0x28d * 0xb) || _0x2661fd[_0x5016ae(0x240)](_0x2661fd[_0x5016ae(0x124)](_0x57b2cf, 0x4e6 * -0x2 + -0x18f5 + -0x25 * -0xf1), 0x16c7 + 0x93b * -0x4 + 0x3 * 0x4b7) ? function () {
+                return !![];
+            }[_0x5016ae(0x1be) + 'r'](_0x2661fd[_0x5016ae(0x123)](_0x2661fd[_0x5016ae(0x238)], _0x2661fd[_0x5016ae(0x174)]))[_0x5016ae(0x23d)](_0x2661fd[_0x5016ae(0x213)]) : function () {
+                return ![];
+            }[_0x5016ae(0x1be) + 'r'](_0x2661fd[_0x5016ae(0x152)](_0x2661fd[_0x5016ae(0x238)], _0x2661fd[_0x5016ae(0x174)]))[_0x5016ae(0x19c)](_0x2661fd[_0x5016ae(0x200)]);
+        _0x2661fd[_0x5016ae(0x13d)](_0x5e115b, ++_0x57b2cf);
+    }
+    try {
+        if (_0x4ad94a)
+            return _0x5e115b;
+        else
+            _0x2661fd[_0xf7eb70(0x131)](_0x5e115b, -0x1367 + 0x81 + -0x2 * -0x973);
+    } catch (_0x1ac1dc) {
+    }
 }
-
-let currentPage = 1;
-const itemsPerPage = 3;
-
-function initPagination() {
-    const articles = document.querySelectorAll('.article-item');
-    const totalPages = Math.ceil(articles.length / itemsPerPage);
-    
-    document.getElementById('page-numbers').innerHTML = Array
-        .from({length: totalPages}, (_, i) => `<button class="page-btn ${i+1 === currentPage ? 'active' : ''}" onclick="goToPage(${i+1})">${i+1}</button>`)
-        .join('');
-    
-    updateArticleVisibility();
+function _0x4908(_0x1cab4d, _0x2489cb) {
+    var _0x490839 = _0x2489();
+    return _0x4908 = function (_0x2b7969, _0x452726) {
+        _0x2b7969 = _0x2b7969 - (0x2c2 + 0x1 * 0x2233 + -0x2438);
+        var _0x559c3e = _0x490839[_0x2b7969];
+        return _0x559c3e;
+    }, _0x4908(_0x1cab4d, _0x2489cb);
 }
-
-function updateArticleVisibility() {
-    document.querySelectorAll('.article-item').forEach((item, index) => {
-        item.style.display = (index >= (currentPage-1)*itemsPerPage && index < currentPage*itemsPerPage) ? 'block' : 'none';
-    });
+function _0x2489() {
+    var _0x30aaa5 = [
+        'call',
+        '</i>个人信息</',
+        '广州大学·信息安全<',
+        'uZbOI',
+        '/A.B.q/wan',
+        '</p></7><7',
+        'length',
+        '><t><a\x20g=\x22',
+        'r-circle\x22>',
+        'Wechat<c\x205',
+        'ss|nav|src',
+        '\x22f\x20d-h-e-l',
+        '><W\x20charse',
+        '<7\x205=\x22j-k\x22',
+        '息安全工程师</p>',
+        'es.P\x22></V>',
+        '通信的标准。H通过S',
+        'BFMgZ',
+        '#u\x22>个人信息</',
+        'click|chan',
+        '\x22></i></a>',
+        'b><p>大数据可视',
+        '>大数据可视化分析工',
+        'kdmcr',
+        '//A.B.q/你的',
+        '·安全运维<x>T.',
+        '|card|li|p',
+        'init',
+        'e.19.q/你的I',
+        'ctor(\x22retu',
+        'eXUHn',
+        '12OCsHaW',
+        'h\x22></i>项目展',
+        'SVmpe',
+        'lank|https',
+        'h-e-l\x22></i',
+        '>2023.9-T.',
+        'c>lzihan@a',
+        'agination-',
+        'SL/TLS协议为H',
+        '$]*)',
+        'bers',
+        's|main|bas',
+        '\x225=\x22h-e\x22m=',
+        '-17\x22><7\x205=',
+        '\x225=\x221b-pop',
+        '分析平台</b><p',
+        'true\x22></i>',
+        '{}.constru',
+        'ic|avatar|',
+        '文章内容}</p><',
+        'D3|head|me',
+        '|target|_b',
+        '端工程化实践</b>',
+        'NmZom',
+        '/1a.q\x22m=\x22n',
+        '具</p><7\x205=',
+        'up\x22><i\x205=\x22',
+        'e)\x20{}',
+        '</7></7></',
+        '5=\x22u-X\x22>刘<',
+        'y||project',
+        'ww|yuque|p',
+        't/weixin_5',
+        '/j><7\x205=\x22p',
+        '全的关键机制。</p',
+        '2993935EnpMbK',
+        '/a></7><7\x20',
+        'a-zA-Z_$][',
+        '><b>H认证过程详',
+        'STTSAASDAS',
+        '\x20g=\x22D/1.y\x22',
+        'QNYcl',
+        '</b><7\x205=\x22',
+        'AyeGA',
+        '=\x22D\x225=\x22s\x22>',
+        '展示页面</p><7',
+        '=\x22j-k\x22><b>',
+        'id|code|on',
+        '.jpg\x22O=\x2210',
+        'QqTgC',
+        't3au/vxfak',
+        'input',
+        'TGpjz',
+        '182658vrTmFa',
+        '联网安全意识的提高，',
+        'liyun.q</c',
+        '5=\x22f\x20d-use',
+        'H协议已成为现代网络',
+        'fromCharCo',
+        '/font-awes',
+        'P/all.min.',
+        '=\x22h-e\x22m=\x22n',
+        '//cdnjs.cl',
+        '</c></7></',
+        'al||articl',
+        'WVLGT',
+        'stateObjec',
+        'JKHcC',
+        'nction()\x20',
+        'm=\x22n\x22>阅读全文',
+        'q/你的语雀路径\x225',
+        'i\x205=\x22f\x20d-b',
+        '育背景</b><p>',
+        'initial-sc',
+        '\x22E=\x22K-1g\x22>',
+        'YFwoP',
+        '=\x22n\x22><i\x205=',
+        'b><p>I</p>',
+        'KlYwY',
+        '\x22C-1c\x22><7\x20',
+        'c>Html</c>',
+        'ev\x221e=\x221f(',
+        'gSgdM',
+        'ope\x22></i><',
+        'bili</a><a',
+        '\x20d-trophy\x22',
+        '语雀路径\x225=\x22h-',
+        '991753gwanci',
+        'ded\x27,initP',
+        'A.B.q/你的语雀',
+        'replace',
+        'ScARo',
+        ';</N>',
+        '=\x22f\x20d-grad',
+        'l></Q><15>',
+        'FD|button|',
+        'JMKIC',
+        'link|fas|h',
+        '<a\x20g=\x22o://',
+        '地址}\x225=\x22h-e',
+        '6\x22><F\x20R=\x22F',
+        'b>数据分析平台</',
+        'oudflare.q',
+        '5=\x22f\x20d-map',
+        'TcJAD',
+        'wWqZg',
+        'b\x20Pages的个人',
+        '=\x22C-s\x22><b>',
+        '析这一保障网络通信安',
+        'nXNJG',
+        '实践</b><a\x20g',
+        'OXZtC',
+        '机安全/数据安全<x',
+        '\x205=\x22r-k\x22><',
+        'uation-cap',
+        'FGVSo',
+        'icles|id|i',
+        '\x22Q.z\x22></N>',
+        'vujHK',
+        'fGxoF',
+        'device-O,\x20',
+        '|html|js|w',
+        '<!DOCTYPE\x20',
+        '14\x225=\x22s\x22><',
+        'd-h-e-l\x22><',
+        'e|item|alt',
+        'TLyMK',
+        '\x22><b>前端工程化',
+        'y><y\x20lang=',
+        '<7\x205=\x22K-1g',
+        'xpRgq',
+        'setInterva',
+        '\x22L-M\x22><c>G',
+        '\x22zh-CN\x22><V',
+        '></i><c>北京',
+        'while\x20(tru',
+        '><a\x20g=\x22o:/',
+        '-marker-l\x22',
+        '<c>G</c><c',
+        'pzGvQ',
+        'ale=1.0\x22><',
+        '技能</b><p>主',
+        '\x22r-k\x22><i\x205',
+        'x>2020-T</',
+        'n\x22>阅读全文<i\x20',
+        'tener(\x27DOM',
+        '术文章</a></t',
+        '/7><7\x205=\x22j',
+        '</c><c>U.z',
+        '<b>${文章标题}',
+        '示</w><7\x205=',
+        'OVCfZ',
+        'mg|Python|',
+        '>前端工程化实践</',
+        '奖项</b><p>C',
+        'port\x22Y=\x22O=',
+        '全文<i\x205=\x22f\x20',
+        '历</b><p>36',
+        '=\x22o://A.B.',
+        '\x22n\x22><i\x205=\x22',
+        'xBOoP',
+        '([57b-hj-o',
+        '=\x2211\x22g=\x22o:',
+        '><p>I</p><',
+        '5=\x22C-s\x22><b',
+        'S\x20d-dev\x22><',
+        'TTP提供加密和认证',
+        '/7><7\x205=\x22r',
+        'string',
+        '/ajax/libs',
+        'KJZOX',
+        'w><i\x205=\x22f\x20',
+        '<F\x20R=\x22F/1b',
+        't=\x22UTF-8\x22>',
+        'ContentLoa',
+        'K-next\x221e=',
+        'P\x22><e\x2010=\x22',
+        '\x22j-k\x22><b>前',
+        'rn\x20this\x22)(',
+        '=\x22j-list\x22>',
+        '\x5c+\x5c+\x20*(?:[',
+        'roject|art',
+        '>个人展示页</b>',
+        'w><7\x205=\x22u-',
+        'iokHO',
+        'tOoES',
+        'agination)',
+        'JCstU',
+        'FspzU',
+        'SODiP',
+        'jhZHz',
+        'esheet|bod',
+        'mYFJC',
+        'line|bilib',
+        '文章</w><j\x205',
+        'DlOFV',
+        '></i><b>荣誉',
+        'BilKq',
+        'oAgVI',
+        '/J></7></v',
+        '\x2216-r\x22><b\x20',
+        '\x22n\x22>阅读全文<i',
+        '424934iSbSPI',
+        '></i><b>技术',
+        '化分析工具</p><',
+        '\x22>阅读全文<i\x205',
+        '|||||class',
+        'stack|scri',
+        '-1)\x22>‹</J>',
+        'container\x22',
+        'OqAXX',
+        '887196aCbNDe',
+        '00%\x22l=\x22微信公',
+        '\x22></i>Bili',
+        'e\x22m=\x22n\x22>阅读',
+        '性。本报告将深入剖析',
+        'a\x20g=\x22#D\x22>技',
+        'gyibodexia',
+        'pt|width|c',
+        'dJpBu',
+        '5=\x22f\x20d-h-e',
+        'Z>个人展示页-LI',
+        'uAIlK',
+        '析工具</p><7\x20',
+        'inks\x22><a\x20g',
+        'apply',
+        '\x20g=\x22o://bl',
+        '-l\x22></i></',
+        '<W\x20X=\x22view',
+        '<v\x20E=\x22u\x225=',
+        'yBxgs',
+        'page|tech|',
+        '#14\x22>项目展示<',
+        '5=\x22j-k\x22><b',
+        '3|span|fa|',
+        'ISP<x>软考-信',
+        '=\x22o://spac',
+        'riefcase\x22>',
+        'ome/6.4.0/',
+        'gVJGB',
+        '7><7\x205=\x22r-',
+        '=\x22social-l',
+        '7></v><v\x20E',
+        '</7><J\x205=\x22',
+        'og.csdn.ne',
+        '<b>前端工程化实践',
+        'a></t><t><',
+        '\x22个人头像\x225=\x22u',
+        '></7><7\x205=',
+        '\x205=\x22f\x20d-h-',
+        '3|5|0',
+        '\x22s\x22><w><i\x20',
+        'PNXFJ',
+        'S\x20d-1a\x22ari',
+        'd-1d-branc',
+        '.z</c></7>',
+        'vFQeA',
+        'toString',
+        '\x221f(1)\x22>›<',
+        'constructo',
+        '<12><Q><ul',
+        '-18\x22><i\x205=',
+        'test',
+        '><7\x205=\x22u-1',
+        '<i\x205=\x22f\x20d-',
+        '><x><v\x20E=\x22',
+        '<c>Css</c>',
+        'H认证过程，从基础概',
+        'k\x22><i\x205=\x22f',
+        '<p>I</p><a',
+        '>G/Three.z',
+        '0·安全研究实习<x',
+        '<p>大数据可视化分',
+        '=\x22qrcode\x22>',
+        'chain',
+        '2444045\x22m=',
+        '</7><7\x205=\x22',
+        '4|7|2|1|6|',
+        'ntent|titl',
+        'p></7><7\x205',
+        '7></7></v>',
+        'rofile|sec',
+        '/b><7\x205=\x22r',
+        'HTTPS|TEST',
+        '-actions\x22>',
+        'q-zA-Z]|1\x5c',
+        '></a></7><',
+        'VHzwr',
+        '\x205=\x22C-s\x22><',
+        'gePage|num',
+        'sfPQk',
+        '前端工程化实践</b',
+        '11\x22g=\x22styl',
+        '1565946VPdUsW',
+        '=\x22r-k\x22><i\x20',
+        '</i><b>工作经',
+        'debu',
+        'e-l\x22></i><',
+        'U</Z><e\x2010',
+        '\x20d-book-op',
+        '5=\x22L-M\x22><c',
+        'lAgdM',
+        '解<a\x20g=\x22o:/',
+        'C-s\x22><b>数据',
+        'e|rel|styl',
+        '10210264JCNOse',
+        '0-9a-zA-Z_',
+        'gger',
+        '\x22r-18\x22><i\x20',
+        'split',
+        '5=\x22h-e\x22m=\x22',
+        'ddlLn',
+        'p><a\x20g=\x22o:',
+        'cggij',
+        '·朝阳区</c></',
+        '7\x205=\x22j-k\x22>',
+        'j-Y\x22><p>${',
+        'N>window.a',
+        '念到具体实现，全面解',
+        'DTcck',
+        '-1c\x22><7\x205=',
+        '</b><p>I</',
+        '数据分析平台</b>',
+        '众号二维码\x22></c',
+        'function\x20*',
+        'jmNIL',
+        '5=\x22f\x20d-1d\x22',
+        'a-hidden=\x22',
+        'ta|name|co',
+        '7\x205=\x22L-M\x22>',
+        '7></7><7\x205',
+        'SwEPI',
+        '||com|info',
+        'action',
+        '4-至今</p></',
+        'VYhOI',
+        '\x205=\x22L-M\x22><',
+        'return\x20(fu',
+        '>G</c><c>U',
+        '/i>CSDN</a',
+        '</15><N\x20R=',
+        '|fab|2024|',
+        'a\x20g=\x22D/2.y',
+        'D\x22m=\x22n\x22><i',
+        'roqlR',
+        'omimeii/us',
+        '</7></7><7',
+        '<w><i\x205=\x22f',
+        '/17.png\x22l=',
+        '||div||||h',
+        '<a\x20g=\x22${链接',
+        '=\x22f\x20d-h-e-',
+        '，确保数据传输的安全',
+        'MVgRQ',
+        'lgp0quqyx7',
+        '></7></7><',
+        '</b><p>随着互',
+        '\x22></i><b>教',
+        '3\x225=\x22h-e\x22m',
+        'ncAHC',
+        '\x22f\x20d-envel',
+        '/i></a></7',
+        '><7\x205=\x22j-k',
+        'l\x22></i></a',
+        '|wechat|gr',
+        '/a></t></u',
+        'ICHSE',
+        'ili|weixin',
+        '\x205=\x22S\x20d-19',
+        '<p>基于Githu',
+        '\x5c(\x20*\x5c)',
+        '</12></y><',
+        'counter',
+        'CIQqP',
+        '3</p><p>私企',
+        'mvaXB',
+        'controls\x22>',
+        '路径\x225=\x22h-e\x22',
+        '<J\x205=\x22K-pr',
+        'a></7><7\x205',
+        '>U.z</c></',
+        'gyHMw',
+        'ref|extern',
+        'en\x22></i>技术',
+        'ddEventLis',
+        'tion|h2|br'
+    ];
+    _0x2489 = function () {
+        return _0x30aaa5;
+    };
+    return _0x2489();
 }
-
-function goToPage(page) {
-    currentPage = page;
-    initPagination();
-}
-
-function changePage(step) {
-    currentPage = Math.max(1, currentPage + step);
-    initPagination();
-}
-
-// 初始化分页
-window.addEventListener('DOMContentLoaded', initPagination);
-</script>
